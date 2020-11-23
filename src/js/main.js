@@ -1,3 +1,7 @@
 import './lib/lib'
 
-$('.el').toggle();
+$('.el').addAttr('data-id')
+$('.active').click(sayHi)
+function sayHi(){
+    console.log('hi')
+}
