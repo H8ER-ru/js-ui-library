@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3e81cd-130a-4427-b682-4f25c8aaba8e" name="Default Changelist" comment="start of project. Made core and basic functions">
+    <list default="true" id="5d3e81cd-130a-4427-b682-4f25c8aaba8e" name="Default Changelist" comment="made handler and attribute functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/classes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +80,8 @@
       <workItem from="1605870763759" duration="5031000" />
       <workItem from="1605886153888" duration="3355000" />
       <workItem from="1606028395262" duration="2961000" />
-      <workItem from="1606118150602" duration="4074000" />
+      <workItem from="1606118150602" duration="4510000" />
+      <workItem from="1606161109471" duration="2490000" />
     </task>
     <task id="LOCAL-00001" summary="start of project. Made core and basic functions">
       <created>1605893108917</created>
@@ -93,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605893108917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="made handler and attribute functions">
+      <created>1606130594095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606130594095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start of project. Made core and basic functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="start of project. Made core and basic functions" />
+    <MESSAGE value="made handler and attribute functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="made handler and attribute functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="221" key="#Deployment" timestamp="1605876932795">
@@ -140,10 +145,10 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="491" y="209" key="SettingsEditor/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605891248660" />
-    <state x="552" y="296" key="Vcs.Push.Dialog.v2" timestamp="1605893125113">
+    <state x="552" y="296" key="Vcs.Push.Dialog.v2" timestamp="1606130633484">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="552" y="296" key="Vcs.Push.Dialog.v2/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605893125113" />
+    <state x="552" y="296" key="Vcs.Push.Dialog.v2/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1606130633484" />
     <state x="799" y="464" key="WebDeployment.AddServerDialog.v.1" timestamp="1605876743083">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
