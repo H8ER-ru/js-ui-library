@@ -4,5 +4,6 @@ import './modules/classes'
 import './modules/handler'
 import './modules/attr'
 import  './modules/actions'
+import './modules/animation'
 
 export default $
