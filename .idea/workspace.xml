@@ -16,15 +16,33 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3e81cd-130a-4427-b682-4f25c8aaba8e" name="Default Changelist" comment="made handler and attribute functions">
+    <list default="true" id="5d3e81cd-130a-4427-b682-4f25c8aaba8e" name="Default Changelist" comment="create fadeIn and fadeOut">
+      <change afterPath="$PROJECT_DIR$/src/sass/components/button.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/ui.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/general/_base.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/general/_typography.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/general/_variables.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/align.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/display.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/font.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/helpers.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/margin.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/padding.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/sizes.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +53,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -62,6 +90,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,6 +101,57 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="zielu.svntoolbox.prj.config" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-sass" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build-sass</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watch</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.build-sass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +168,8 @@
       <workItem from="1606161109471" duration="2549000" />
       <workItem from="1606207951641" duration="241000" />
       <workItem from="1606208498288" duration="599000" />
-      <workItem from="1606221716360" duration="7628000" />
+      <workItem from="1606221716360" duration="8808000" />
+      <workItem from="1611139553756" duration="7637000" />
     </task>
     <task id="LOCAL-00001" summary="start of project. Made core and basic functions">
       <created>1605893108917</created>
@@ -110,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606163638504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create fadeIn and fadeOut">
+      <created>1606236639664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606236639664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +210,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -131,44 +232,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start of project. Made core and basic functions" />
     <MESSAGE value="made handler and attribute functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="made handler and attribute functions" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="221" key="#Deployment" timestamp="1605876932795">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="552" y="221" key="#Deployment/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605876932795" />
-    <state x="658" y="389" key="#Notifications" timestamp="1605891208143">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="658" y="389" key="#Notifications/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605891208143" />
-    <state x="718" y="305" key="FileChooserDialogImpl" timestamp="1605871511059">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="718" y="305" key="FileChooserDialogImpl/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605871511059" />
-    <state x="810" y="462" key="Github.ShareDialog" timestamp="1605890890648">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="810" y="462" key="Github.ShareDialog/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605890890648" />
-    <state x="797" y="262" key="Github.UntrackedFilesDialog" timestamp="1605890937354">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="797" y="262" key="Github.UntrackedFilesDialog/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605890937354" />
-    <state x="491" y="209" key="SettingsEditor" timestamp="1605891248660">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="491" y="209" key="SettingsEditor/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605891248660" />
-    <state x="552" y="296" key="Vcs.Push.Dialog.v2" timestamp="1606236572629">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="552" y="296" key="Vcs.Push.Dialog.v2/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1606236572629" />
-    <state x="799" y="464" key="WebDeployment.AddServerDialog.v.1" timestamp="1605876743083">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="799" y="464" key="WebDeployment.AddServerDialog.v.1/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605876743083" />
-    <state x="623" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1605891679568">
-      <screen x="0" y="46" width="1920" height="1034" />
-    </state>
-    <state x="623" y="269" width="672" height="678" key="search.everywhere.popup/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605891679568" />
+    <MESSAGE value="create fadeIn and fadeOut" />
+    <option name="LAST_COMMIT_MESSAGE" value="create fadeIn and fadeOut" />
   </component>
 </project>
