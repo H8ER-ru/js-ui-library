@@ -5,5 +5,7 @@ import './modules/handler'
 import './modules/attr'
 import  './modules/actions'
 import './modules/animation'
+import './components/dropdown'
+import './components/modal'
 
 export default $

@@ -1,5 +1,6 @@
 import './lib/lib'
+import $ from "./lib/core";
 
 $('#first').on('click', () =>{
-    $('.container div').eq(0).fadeOut(800)
+    $('.container div').eq(0).fadeToggle(800)
 })
