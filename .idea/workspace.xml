@@ -26,13 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d3e81cd-130a-4427-b682-4f25c8aaba8e" name="Default Changelist" comment="create fadeIn and fadeOut">
-      <change afterPath="$PROJECT_DIR$/src/js/lib/components/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/tab.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/handler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/components/ui.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/ui.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +162,8 @@
       <workItem from="1611139553756" duration="9855000" />
       <workItem from="1611224895269" duration="7457000" />
       <workItem from="1611298043718" duration="9868000" />
-      <workItem from="1611311150161" duration="251000" />
+      <workItem from="1611311150161" duration="946000" />
+      <workItem from="1611321079840" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="start of project. Made core and basic functions">
       <created>1605893108917</created>
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611303900709</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix some modulues and made tabs">
+      <created>1611311469101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611311469101</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +258,7 @@
     <MESSAGE value="made buttons and classes" />
     <MESSAGE value="made modal window and dropdown menu" />
     <MESSAGE value="made dynamic modals" />
-    <option name="LAST_COMMIT_MESSAGE" value="made dynamic modals" />
+    <MESSAGE value="fix some modulues and made tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some modulues and made tabs" />
   </component>
 </project>
