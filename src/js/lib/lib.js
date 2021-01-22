@@ -7,5 +7,6 @@ import  './modules/actions'
 import './modules/animation'
 import './components/dropdown'
 import './components/modal'
+import './components/tabs'
 
 export default $

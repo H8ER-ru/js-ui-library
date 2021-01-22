@@ -1,101 +1,114 @@
-import $ from '../core'
+import $ from '../core';
 
-$.prototype.html = function (content){
-    for (let i = 0; i < this.length; i++){
-        if(content){
+$.prototype.html = function(content) {
+    for (let i = 0; i < this.length; i++) {
+        if (content) {
             this[i].innerHTML = content;
-        }else{
-            return this[i].innerHTML
+        } else {
+            return this[i].innerHTML;
         }
     }
-    return this
-}
 
-$.prototype.eq = function (i){
+    return this;
+};
+
+$.prototype.eq = function(i) {
     const swap = this[i];
-    const objLength = Object.keys(this).length
+    const objLength = Object.keys(this).length;
 
-    for (let i = 0; i < objLength; i++){
-        delete this[i]
+    for (let i = 0; i < objLength; i++) {
+        delete this[i];
     }
 
-    this[0] = swap
-    this.length = 1
-    return this
-}
+    this[0] = swap;
+    this.length = 1;
+    return this;
+};
 
-$.prototype.index = function (){
-    const parent = this[0].parentNode
+$.prototype.index = function() {
+    const parent = this[0].parentNode;
     const childs = [...parent.children];
 
     const findMyIndex = (item) => {
-        return item == this[0]
-    }
+        return item == this[0];
+    };
 
-    return childs.findIndex(findMyIndex)
-}
+    return childs.findIndex(findMyIndex);
+};
 
-$.prototype.find = function (selector){
-    let numberOfItems = 0
-    let counter = 0
+$.prototype.find = function(selector) {
+    let numberOfItems = 0;
+    let counter = 0;
 
-    const copyObj = Object.assign({}, this)
-    for (let i = 0; i <copyObj.length; i++){
-        const arr = copyObj[i].querySelectorAll(selector)
-        if (arr.length == 0){
-            continue
+    const copyObj = Object.assign({}, this);
+
+    for (let i = 0; i < copyObj.length; i++) {
+        const arr = copyObj[i].querySelectorAll(selector);
+        if (arr.length == 0) {
+            continue;
         }
 
-        for (let j; j < arr.length; j++){
+        for (let j = 0; j < arr.length; j++) {
             this[counter] = arr[j];
-            counter++
+            counter++;
         }
 
         numberOfItems += arr.length;
     }
 
-    this.length = numberOfItems
-    const objLength = Object.keys(this).length
-    for (;numberOfItems < objLength; numberOfItems++){
-        delete this[numberOfItems]
+    this.length = numberOfItems;
+
+    const objLength = Object.keys(this).length;
+    for (; numberOfItems < objLength; numberOfItems++) {
+        delete this[numberOfItems];
     }
 
-    return this
-}
+    return this;
+};
 
-$.prototype.closest = function (selector){
+$.prototype.closest = function(selector) {
     let counter = 0;
 
-    for(let i = 0; i< this.length; i++){
-        this[i] = this[i].closest(selector)
-        counter++
+    for (let i = 0; i < this.length; i++) {
+        this[i] = this[i].closest(selector);
+        counter++;
     }
-    const objLength = Object.keys(this).length
-    for (;counter < objLength; counter++){
-        delete this[counter]
+
+    const objLength = Object.keys(this).length;
+    for (; counter < objLength; counter++) {
+        delete this[counter];
     }
-    return this
-}
 
-$.prototype.siblings = function (){
-    let numberOfItems = 0
-    let counter = 0
+    return this;
+};
 
-    const copyObj = Object.assign({}, this)
-    for (let i = 0; i <copyObj.length; i++){
+$.prototype.siblings = function() {
+    let numberOfItems = 0;
+    let counter = 0;
+
+    const copyObj = Object.assign({}, this);
+
+    for (let i = 0; i < copyObj.length; i++) {
         const arr = copyObj[i].parentNode.children;
-        for (let j; j < arr.length; j++){
-            if (copyObj[i] === arr[j]){
-                continue
+
+        for (let j = 0; j < arr.length; j++) {
+            if (copyObj[i] === arr[j]) {
+                continue;
             }
+
             this[counter] = arr[j];
-            counter++
+            counter++;
         }
 
-        numberOfItems += arr.length -1;
+        numberOfItems += arr.length - 1;
     }
-    this.length = numberOfItems
 
-    return this
-}
+    this.length = numberOfItems;
 
+    const objLength = Object.keys(this).length;
+    for (; numberOfItems < objLength; numberOfItems++) {
+        delete this[numberOfItems];
+    }
+
+    return this;
+};
