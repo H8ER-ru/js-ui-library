@@ -26,15 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d3e81cd-130a-4427-b682-4f25c8aaba8e" name="Default Changelist" comment="create fadeIn and fadeOut">
-      <change afterPath="$PROJECT_DIR$/src/js/lib/components/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/card.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/dropdown.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/components/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/components/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/ui.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/ui.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,8 @@
       <workItem from="1606208498288" duration="599000" />
       <workItem from="1606221716360" duration="8808000" />
       <workItem from="1611139553756" duration="9855000" />
-      <workItem from="1611224895269" duration="7424000" />
+      <workItem from="1611224895269" duration="7457000" />
+      <workItem from="1611298043718" duration="2553000" />
     </task>
     <task id="LOCAL-00001" summary="start of project. Made core and basic functions">
       <created>1605893108917</created>
@@ -199,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611148321301</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made modal window and dropdown menu">
+      <created>1611239622256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611239622256</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +237,7 @@
     <MESSAGE value="made handler and attribute functions" />
     <MESSAGE value="create fadeIn and fadeOut" />
     <MESSAGE value="made buttons and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="made buttons and classes" />
+    <MESSAGE value="made modal window and dropdown menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="made modal window and dropdown menu" />
   </component>
 </project>
